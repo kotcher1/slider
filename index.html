@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel='stylesheet' href='css/main.css'>
+  <title>Slider</title>
+</head>
+
+<body class="activateAppearAnimation">
+
+  <main class="main">
+    <div class="container-fluids con-begin-button" id="button-screen">
+      <div class="row d-flex justify-content-center align-items-center w-100 mx-0">
+        <div class="col-3 d-flex justify-content-center">
+          <button type="button" class="btn button-begin btn-warning" id="button-start">Начать демонстрацию</button>
+        </div>
+      </div>
+    </div>
+    <div id="slider-screen">
+      <div id="sliderImagesMin" class="carousel slide carousel-fade d-md-none" data-ride="carousel">
+        <ol class="carousel-indicators indicators-sm d-md-none">
+          <li data-target="#sliderImagesMin" data-slide-to="0" class="indicator-round active">
+          </li>
+          <li data-target="#sliderImagesMin" data-slide-to="1" class="indicator-round">
+          </li>
+          <li data-target="#sliderImagesMin" data-slide-to="2" class="indicator-round">
+          </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex justify-content-center">
+            <div class="container-fluids carousel-caption con1 mx-auto d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-0 px-xl-auto text-md-left">
+                  <h2 class="text-dark">Этот текст добавлен для <span>демонстрации на странице</span></h2>
+                  <p class="d-md-none text-dark">Тест на внимательность</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_1min.jpg" class="img-slider d-md-none h-auto w-auto" alt="Model">
+          </div>
+          <div class="carousel-item d-flex justify-content-center">
+            <div class="container-fluids con1 mx-auto carousel-caption d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-0 px-xl-auto text-md-left">
+                  <h2 class="text-dark">Этот текст добавлен для <span>демонстрации на странице</span></h2>
+                  <p class="d-md-none text-dark">Тест на внимательность</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_2min.jpg" class="img-slider d-md-none h-auto w-auto" alt="Model">
+          </div>
+          <div class="carousel-item d-flex justify-content-center">
+            <div class="container-fluids con1 mx-auto carousel-caption d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-0 px-xl-auto text-md-left">
+                  <h2 class="text-dark">Этот текст добавлен <span>для демонстрации на странице</span></h2>
+                  <p class="d-md-none text-dark">Тест на внимательность</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_3min.jpg" class="img-slider d-md-none h-auto w-auto" alt="Model">
+          </div>
+        </div>
+      </div>
+      <div id="sliderImages" class="carousel slide carousel-fade d-none d-md-block" data-ride="carousel">
+        <div class="container-fluid container-indicator justify-content-center mx-auto px-0">
+          <div class="row row-indicators carousel-indicators justify-content-around justify-self-center text-center mx-auto">
+            <div class="col-3 d-none d-md-block active px-xl-0" data-target="#sliderImages" data-slide-to="0">
+              <div class="indicator-box in-box-1 rounded d-flex justify-content-center align-items-center w-100">
+                <img src="img/slider_1pre.jpg" alt="img" class="pre-img rounded">
+                <div class="ind-text-box d-flex flex-column text-left text-white">
+                  <p class="mb-0 pa">Акция действует с 01.07.18</p>
+                  <p class="mb-0 pb">Этот текст добавлен для демонстрации на странице</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 d-none d-md-block px-xl-0" data-target="#sliderImages" data-slide-to="1">
+              <div class="indicator-box in-box-2 rounded d-flex justify-content-center align-items-center w-100">
+                <img src="img/slider_2pre.jpg" alt="img" class="pre-img rounded">
+                <div class="ind-text-box d-flex flex-column text-left text-white">
+                  <p class="mb-0 pa">Акция действует с 01.07.18</p>
+                  <p class="mb-0 pb">Этот текст добавлен для демонстрации на странице</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 d-none d-md-block px-xl-0" data-target="#sliderImages" data-slide-to="2">
+              <div class="indicator-box in-box-3 rounded d-flex justify-content-center align-items-center w-100">
+                <img src="img/slider_3pre.jpg" alt="img" class="pre-img rounded">
+                <div class="ind-text-box d-flex flex-column text-left text-white">
+                  <p class="mb-0 pa">Акция действует с 01.07.18</p>
+                  <p class="mb-0 pb">Этот текст добавлен для демонстрации на странице</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 d-none d-md-block px-xl-0" data-target="#sliderImages" data-slide-to="3">
+              <div class="indicator-box in-box-4 rounded  d-flex justify-content-center align-items-center w-100">
+                <img src="img/slider_4pre.jpg" alt="img" class="pre-img rounded">
+                <div class="ind-text-box d-flex flex-column text-left text-white">
+                  <p class="mb-0 pa">Акция действует с 01.07.18</p>
+                  <p class="mb-0 pb">Этот текст добавлен для демонстрации на странице</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex justify-content-center">
+            <div class="container-fluids carousel-caption con1 mx-auto d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-0 px-xl-auto text-md-left anima">
+                  <h2 class="text-dark">Этот текст добавлен для <span>демонстрации на странице</span></h2>
+                  <p class="d-none d-md-block text-dark">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="d-md-none text-dark">Тест на внимательность</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                      <button type="button" class="btn d-none d-md-inline-block btn-outline-dark btn-lg text-dark btn-text btn-2">ВСЕ АКЦИИ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_1.jpg" class="img-slider d-none d-md-flex h-auto w-auto" alt="Model">
+            <img src="img/slider_1min.jpg" class="img-slider d-md-none h-auto w-auto" alt="Model">
+          </div>
+          <div class="carousel-item d-flex justify-content-center">
+            <div class="container-fluids con1 mx-auto carousel-caption d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-0 px-xl-auto text-md-left">
+                  <h2 class="text-dark">Этот текст добавлен для <span>демонстрации на странице</span></h2>
+                  <p class="d-none d-md-block text-dark">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="d-md-none text-dark">Тест на внимательность</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                      <button type="button" class="btn d-none d-md-inline-block btn-outline-dark btn-lg text-dark btn-text btn-2">ВСЕ АКЦИИ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_2.jpg" class="img-slider d-none d-md-flex h-auto w-auto" alt="Model">
+            <img src="img/slider_2min.jpg" class="img-slider d-md-none h-auto w-auto" alt="Model">
+          </div>
+          <div class="carousel-item d-flex justify-content-center">
+            <div class="container-fluids con1 mx-auto carousel-caption d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-0 px-xl-auto text-md-left">
+                  <h2 class="text-dark">Этот текст добавлен <span>для демонстрации на странице</span></h2>
+                  <p class="d-none d-md-block text-dark">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="d-md-none text-dark">Тест на внимательность</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                      <button type="button" class="btn d-none d-md-inline-block btn-outline-dark btn-lg text-dark btn-text btn-2">ВСЕ АКЦИИ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_3.jpg" class="img-slider d-none d-md-flex h-auto w-auto" alt="Model">
+            <img src="img/slider_3min.jpg" class="img-slider d-md-none h-auto w-auto" alt="Model">
+          </div>
+          <div class="car-it-4 d-none d-md-flex justify-content-center" id="it4">
+            <div class="container-fluids con1 mx-auto carousel-caption d-flex px-0 h-100 py-0">
+              <div class="row d-flex align-self-center justify-content-end w-100">
+                <div class="col-xl-7 col-md-6 px-md-0 px-xl-auto text-left">
+                  <h2 class="text-dark">Этот текст добавлен <span>для демонстрации на странице</span></h2>
+                  <p class="text-dark">Акция действует с 01.07.18 по 31.07.18</p>
+                  <div class="row justify-content-start">
+                    <div class="col buttons">
+                      <button type="button" class="btn btn-warning btn-lg btn-text btn-1">ПОДРОБНЕЕ</button>
+                      <button type="button" class="btn btn-outline-dark btn-lg text-dark btn-text btn-2">ВСЕ АКЦИИ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="img/slider_4.jpg" class="img-slider h-auto w-auto" alt="Model">
+          </div>
+          <a class="carousel-control-prev d-none d-md-flex w-auto h-auto" href="#sliderImages" role="button" data-slide="prev">
+            <div class="control-button d-flex justify-content-center align-items-center">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </div>
+          </a>
+          <a class="carousel-control-next d-none d-md-flex w-auto h-auto" href="#sliderImages" role="button" data-slide="next">
+            <div class="control-button d-flex justify-content-center align-items-center">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src='js/main.js'></script>
+</body>
+
+</html>

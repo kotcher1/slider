@@ -1,0 +1,369 @@
+.main {
+  background-color: rgb(194, 205, 214);
+}
+
+.main .con-begin-button .row {
+  min-height: 675px;
+}
+
+.main .con-begin-button .button-begin {
+  height: auto;
+  width: 249px;
+  background-color: #ff891e;
+  letter-spacing: 0.2px;
+}
+
+.main .carousel .indicators-sm {
+  margin-bottom: 28px;
+}
+
+.main .carousel .indicators-sm .indicator-round {
+  border-radius: 50%;
+  border: black 1px solid;
+  height: 14px !important;
+  width: 13px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  margin-right: 8px !important;
+  margin-left: 8px !important;
+}
+
+.main .carousel .indicators-sm .active {
+  background-color: black;
+}
+
+.main .btn {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main .control-button {
+  height: 84px;
+  width: 75px;
+}
+
+.main .control-button:hover {
+  background-color: rgba(180, 187, 197, 0.7);
+}
+
+.main .row .buttons {
+  margin-left: 19px;
+}
+
+.main .buttons .btn-text {
+  margin-right: 17px;
+}
+
+.main .buttons .btn-1 {
+  background-color: #ff891e;
+}
+
+.main .control-button .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='10px' height='17px' viewBox='0 0 10 17' enable-background='new 0 0 10 17' xml:space='preserve'%3E%3Cimage id='image0' width='10' height='17' x='0' y='0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARCAQAAABOKvVuAAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN RQfjCBwRLwh3mBlyAAAAhElEQVQY043OvwpBYQDG4a9YDf7sLkIdygUoDG7IbuWg3JaNIwvKYuSQ 4TH6Dinv+PQOvxCiqVq5GMdUM8XT8ZPulppvmiG3iF9fVJcil76pIcUtohDM8LAMhbY1NnpKMXbt cdBXjrljh6PBX9yW4WT4iysxJ7Y4mxTzEpmrfSjOyFzrBanTiUPfFfVJAAAAJXRFWHRkYXRlOmNy ZWF0ZQAyMDE5LTA4LTI4VDE3OjQ3OjA4KzAzOjAw6b9hXgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAx OS0wOC0yOFQxNzo0NzowOCswMzowMJji2eIAAAAASUVORK5CYII='/%3E%3C/svg%3E");
+  width: 10px;
+  height: 17px;
+  margin-right: 13px;
+}
+
+.main .control-button .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='10px' height='17px' viewBox='0 0 10 17' enable-background='new 0 0 10 17' xml:space='preserve'%3E%3Cimage id='image0' width='10' height='17' x='0' y='0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARCAQAAABOKvVuAAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN RQfjCBwSAhBGmGWSAAAAgUlEQVQY043QOw4BARiF0T8eHWIBgkXYhAmt7WiI2IfGI7ZDRKLSaVWD o5KZYQq3PPmqG6YYqkZ+rnhKCqzvVMY9R7yM1P7grgMYl/HLWD3PHWeQVHJ6i1VEPGKSdQ0zpPY+ oaY5UrusKqUFUtuMWj8UYYnUuvjSxf2LIgxstIv2BiOggdTHcPkrAAAAJXRFWHRkYXRlOmNyZWF0 ZQAyMDE5LTA4LTI4VDE4OjAyOjE2KzAzOjAwBKp3bgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0w OC0yOFQxODowMjoxNiswMzowMHX3z9IAAAAASUVORK5CYII='/%3E%3C/svg%3E");
+  width: 10px;
+  height: 17px;
+  margin-left: 13px;
+}
+
+.main .container-indicator .col-3 .indicator-box {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0px 0px;
+}
+
+.main .container-indicator .row-indicators .active .indicator-box {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+  .main .carousel-item .img-slider {
+    height: 400px !important;
+  }
+
+  .main .con-begin-button .row {
+    min-height: 400px;
+  }
+
+  .main .carousel-item .con1 {
+    max-width: 375px;
+  }
+
+  .main .row .col-xl-7 h2 {
+    font-weight: normal;
+    font-size: 27px;
+    margin-left: 27px;
+    margin-top: 37px;
+    letter-spacing: -0.3px;
+    line-height: 29px;
+  }
+
+  .main .row .col-xl-7 p {
+    font-size: 18px;
+    margin-left: 28px;
+    margin-top: -3px;
+    letter-spacing: 0.7px;
+    margin-bottom: 6px;
+  }
+
+  .main .buttons .btn-warning {
+    width: 128px;
+    height: 37px;
+    margin-left: 29px;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .main .carousel-item .img-slider {
+    height: 675px !important;
+    margin-left: 211px;
+  }
+
+  .main .carousel-item .con1 {
+    max-width: 1002px;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .main .row .col-md-6 {
+    line-height: 1.12;
+  }
+
+  .main .row .col-md-6 h2 {
+    font-weight: normal;
+    font-size: 2.3rem;
+    letter-spacing: 0.04px;
+    margin-top: -29px;
+    line-height: 41px;
+  }
+
+  .main .row .col-md-6 h2 span {
+    padding-top: 19px;
+    letter-spacing: 0.1px;
+  }
+
+  .main .row .col-md-6 p {
+    font-size: 22px;
+    margin-top: 16px;
+    letter-spacing: 0.57px;
+  }
+
+  .main .row .col-md-6 .buttons {
+    padding-left: 0px;
+    margin-top: 6px;
+    margin-bottom: 13px;
+  }
+
+  .main .row .col-md-6 .btn {
+    margin-left: -4px;
+    height: 38px;
+  }
+
+  .main .row .col-md-6 .btn-warning {
+    width: 128px;
+    font-size: 14px;
+  }
+
+  .main .row .col-md-6 .btn-outline-dark {
+    width: 129px;
+    font-size: 13px;
+  }
+
+  .main .container-indicator .row-indicators {
+    max-width: 1002px;
+    margin-bottom: 25px;
+    padding-left: 22px;
+    padding-right: 23px;
+    line-height: 12px;
+  }
+
+  .main .container-indicator .row-indicators .pb {
+    font-weight: 700;
+    letter-spacing: 0.7px;
+  }
+
+  .main .indicator-box .pre-img {
+    height: 45px;
+    width: 40px;
+    margin: 8px 7px 4px 5px;
+  }
+
+  .main .container-indicator .row .col-3 {
+    max-width: 224px;
+    padding: 0px;
+  }
+
+  .main .row-indicators .indicator-box {
+    max-width: 224px;
+    font-size: 0.65rem;
+  }
+
+  .main .indicator-box .ind-text-box {
+    margin: 10px 15px 11px 0px;
+  }
+
+  .main .row-indicators .active .indicator-box {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .carousel-item .img-slider {
+    height: 675px !important;
+  }
+
+  .main .row .col-xl-7 {
+    padding-top: 3px;
+  }
+
+  .main .row .col-xl-7 h2 {
+    margin-left: 32px;
+    font-weight: normal;
+    font-size: 2.7rem;
+    letter-spacing: 0.015em;
+  }
+
+  .main .row .col-xl-7 h2 span {
+    letter-spacing: 0.019em;
+  }
+
+  .main .row .col-xl-7 p {
+    margin-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    font-size: 1.72rem;
+  }
+
+  .main .carousel-item .con1 {
+    max-width: 1200px;
+    bottom: 0px;
+  }
+
+  .main .row .buttons {
+    width: 155px;
+    margin-left: 33px;
+    margin-top: 9px;
+    margin-bottom: 13px;
+  }
+
+  .main .buttons .btn-text {
+    font-size: 1.1rem;
+    margin-right: 17px;
+  }
+
+  .main .buttons .btn-1 {
+    padding: 0.5rem 1.6rem;
+    letter-spacing: -0.04rem;
+    padding-right: 30px;
+    background-color: #ff891e;
+  }
+
+  .main .buttons .btn-2 {
+    padding: 0.5rem 1.8rem;
+    padding-left: 32px;
+    letter-spacing: -0.04rem;
+  }
+
+  .main .container-indicator .row-indicators {
+    margin: 0px 17px 1.1rem 31px;
+    max-width: 1200px;
+  }
+
+  .main .indicator-box .pre-img {
+    height: 54px;
+    width: 48px;
+    margin: 6px;
+  }
+
+  .main .row-indicators .in-box-1 {
+    margin-left: 29px !important;
+  }
+
+  .main .row-indicators .in-box-2 {
+    margin-left: 20px !important;
+  }
+
+  .main .row-indicators .in-box-3 {
+    margin-left: 8px !important;
+  }
+
+  .main .row-indicators .in-box-4 {
+    margin-left: -4px !important;
+  }
+
+  .main .ind-text-box .pb {
+    letter-spacing: 0.04rem;
+    font-weight: 700;
+  }
+
+  .main .ind-text-box .pa {
+    letter-spacing: -0.01rem;
+    font-weight: normal;
+  }
+
+  .main .indicator-box .ind-text-box {
+    margin: 11px 25px 17px 3px;
+    font-size: 0.8rem;
+    line-height: 1.1;
+  }
+
+  .main .row-indicators .indicator-box {
+    max-width: 275px;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .main .con-begin-button .row .col-3 {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main .con-begin-button .col-3 .button-begin {
+    margin: 314px 10% 0 10%;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 768px) and (max-width: 1199px) {
+  .main .carousel-item .img-slider {
+    margin-left: 0px !important;
+  }
+
+  .main .indicator-box .ind-text-box {
+    max-width: 156px;
+  }
+
+  .main .carousel-indicators .col-3 .indicator-box {
+    min-width: 224px;
+  }
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1200px) {
+  .main .ind-text-box .pb {
+    max-width: 187px;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 767px) {
+  .main .con-begin-button .col-3 .button-begin {
+    margin: 150px auto 0 auto;
+    min-width: 210px;
+  }
+}
