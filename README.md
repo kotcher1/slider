@@ -1,6 +1,7 @@
 # slider
 
 Тестовый проект по созданию слайдера в соответствии с концепцией PixelPerfect.
+
 Технологии: HTML, CSS, Bootstrap.
 
 Ссылка на проект: https://kotcher1.github.io/slider/
